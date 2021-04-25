@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ff_server.dir/ffmpeg_decoder.cpp.o"
-  "CMakeFiles/ff_server.dir/ffmpeg_decoder.cpp.o.d"
   "CMakeFiles/ff_server.dir/main.cpp.o"
-  "CMakeFiles/ff_server.dir/main.cpp.o.d"
   "ff_server"
   "ff_server.pdb"
 )

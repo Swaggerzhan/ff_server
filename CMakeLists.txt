@@ -3,15 +3,15 @@ project(ff_server)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(/usr/local/Cellar/ffmpeg/4.3.1_1/include)
+include_directories(/usr/local/Cellar/ffmpeg/4.3.1/include)
 
-link_directories(/usr/local/Cellar/ffmpeg/4.3.1_1/lib)
+link_directories(/usr/local/Cellar/ffmpeg/4.3.1/lib)
 
 set(CMAKE_BUILD_TYPE DEBUG FORCE)
 
 add_executable(ff_server main.cpp
-        ffmpeg_decoder.h ffmpeg_decoder.cpp
-        )
+        # ffmpeg_decoder.h ffmpeg_decoder.cpp
+        f1.h)
 
 
 target_link_libraries(ff_server

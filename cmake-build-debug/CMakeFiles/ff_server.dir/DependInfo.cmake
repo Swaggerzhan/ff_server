@@ -1,15 +1,16 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/swagger/CLionProjects/ff_server/main.cpp" "/Users/swagger/CLionProjects/ff_server/cmake-build-debug/CMakeFiles/ff_server.dir/main.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/zhiyi/CLionProjects/ff_server/ffmpeg_decoder.cpp" "CMakeFiles/ff_server.dir/ffmpeg_decoder.cpp.o" "gcc" "CMakeFiles/ff_server.dir/ffmpeg_decoder.cpp.o.d"
-  "/Users/zhiyi/CLionProjects/ff_server/main.cpp" "CMakeFiles/ff_server.dir/main.cpp.o" "gcc" "CMakeFiles/ff_server.dir/main.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/Cellar/ffmpeg/4.3.1/include"
   )
 
 # Targets to which this target links.
